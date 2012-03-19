@@ -1,0 +1,5 @@
+This is a plugin for ConfirmEdit
+To use add at the end of your LocalSettings.php
+	require_once( "$IP/extensions/ConfirmEdit/MCQ.php"); 
+	$wgCaptchaClass = 'MCQ';
+	
