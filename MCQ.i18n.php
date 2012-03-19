@@ -26,8 +26,8 @@ To help protect against automated spam, please answer the question that appears 
 	/** 
 	*update the question number in the MCQ.class.php when adding new questions
 	*/
-	'question1' => 'Which of the following is an Animal 1)Dog 2)Carrot 3)Bridge 4)Ship',
+	'question1' => 'Which of the following is an Animal 1.Dog 2.Carrot 3.Bridge 4.Ship',
 	'answer1' => '1',
-	'question2' => 'We pray to 1)Time 1)God 3)Lion 4)Tomato',
+	'question2' => 'We pray to 1.Time 1.God 3.Lion 4.Tomato',
 	'answer2' => '2',
 );
