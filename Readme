@@ -1,8 +1,8 @@
-This is just experimental
+This is just an experimental plugin for ConfirmEdit
 
 sample:
 Pick the correct Option Number
-We pray to 1.Time 1.God 3.Lion 4.Tomato
+We pray to 1.Time 1.God 3.Lion 4.Tomato ?
  
 
 Why Beneficial ?
@@ -11,7 +11,7 @@ Why Beneficial ?
 * Most Important - Good support for i18n
 * Further plans to let the user just select the right option rather than typing text
 This is a plugin for ConfirmEdit
-To use add at the end of your LocalSettings.php
+To use add download the files to ConfirmEdit's folder and copy at the end of your LocalSettings.php
 	require_once( "$IP/extensions/ConfirmEdit/MCQ.php"); 
 	$wgCaptchaClass = 'MCQ';
 	
