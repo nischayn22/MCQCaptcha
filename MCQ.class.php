@@ -25,11 +25,11 @@ class MCQ extends SimpleCaptcha {
 	}
 
 	function getMessage( $action ) {
-		$name = 'questycaptcha-' . $action;
+		$name = 'mcqcaptcha-' . $action;
 		$text = wfMsg( $name );
 		# Obtain a more tailored message, if possible, otherwise, fall back to
 		# the default for edits
-		return wfEmptyMsg( $name, $text ) ? wfMsg( 'questycaptcha-edit' ) : $text;
+		return wfEmptyMsg( $name, $text ) ? wfMsg( 'mcqcaptcha-edit' ) : $text;
 	}
 	 
 	function showHelp() {
